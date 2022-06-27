@@ -1,0 +1,74 @@
+.comments-container {
+	padding: 10px;
+}
+.comments-container .comments-heading {
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+	margin-bottom: 5px; 
+}
+.comments-container .arrow-button  {
+	padding: 0px 5px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	color: rgba(0,0,0,0.6);
+}
+.comments-container .comment-input  {
+	padding: 3px;
+	width: 75%;
+	display: inline;
+	font-size: 14px;
+}
+.comments-container .comment-post-button {
+	margin: 0px 3px 3px 3px;
+	padding: 3px 6px;
+}
+.comments-container .comment {
+	background-color: rgba(0,0,0,0.06);
+	color: rgba(0,0,0,0.8);
+	font-size: 15px;
+	padding: 3px 6px;
+	border-left: 2px solid rgba(0,120,120,0.8);
+	border-radius: 2px;
+	margin: 4px;
+}
+.comments-container .comment-body, .comments-container .comment-footer {
+	line-height: 16px;
+}
+.comments-container .comment-footer {
+	text-align: right;
+}
+.comments-container .post-date-container {
+	font-size: 12px;
+}
+.comments-container .comment-operation-button {
+	margin: 0px 8px 0px 0px;
+	padding: 0px;
+	outline: none;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(0,120,120,0.8);
+	background-color: transparent;
+}
+.comments-container .comment-operation-button:active {
+	opacity: 0.8;
+}
+.comments-container .username {
+	color: rgba(120,0,120,0.8);
+	font-weight: 500;
+}
+.comments-container .sub-comments {
+	margin-left: 20px;
+	margin-bottom: 5px; 
+}
+.comments-container .sub-comment {
+	background-color: rgba(0,0,0,0.06);
+	color: rgba(0,0,0,0.8);
+	font-size: 15px;
+	padding: 3px 6px;
+	border-left: 2px solid rgba(120,0,0,0.6);
+	border-radius: 2px;
+	margin: 4px 4px 4px 0px;
+}

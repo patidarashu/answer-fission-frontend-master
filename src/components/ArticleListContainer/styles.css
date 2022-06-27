@@ -1,0 +1,85 @@
+.article-list-container {
+	padding-bottom: 70px;
+}
+.article-list-container .page-title {
+	padding: 10px;
+	color: white;
+	background-color: rgb(34, 64, 153);	
+	margin: 0px;
+}
+.article-list-container .article-list-wrapper {
+	padding: 0px 10px;
+}
+.article-list-container input.search-input {
+	padding: 2px 20px;
+	border: 1px solid rgb(34, 64, 153);
+	border-right: none;
+	border-radius: 20px 0px 0px 20px;
+	max-width: 500px;
+}
+.article-list-container input.search-input:focus {
+	box-shadow: none;
+	outline: none;
+}
+.article-list-container .search-icon {
+	padding: 2px 4px 0px 12px;
+	font-size: 20px;
+	border-left: 1px solid rgb(200,200,200);
+}
+.article-list-container button.search-button {
+	border: none;
+	margin: 0px;
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+	margin: 1px 0px;	
+	color: rgb(34, 64, 153);
+}
+.article-list-container button.search-button:active, .article-list-container button.search-button:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+.article-list-container button.search-button:active {
+	color: rgb(0,255,255);
+}
+.article-list-container .article-list-wrapper .article-list-item {
+	padding: 0px;
+}
+.article-list-container .article-description-wrapper {
+	text-align: justify;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.article-list-container .article-description-wrapper .read-more {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0px;
+	margin: 0px;
+	background-image: linear-gradient(to bottom,transparent, white);
+}
+.article-list-container .article-description img {
+	width: 100%;
+}
+.article-list-container .article-title {
+	color: rgb(34, 64, 153);
+	margin: 0px;
+}
+.article-list-container .username {
+	color: rgb(55, 179, 163);
+	font-size: 14px;
+	font-weight: 500;
+}
+.article-list-container .username-container {
+	margin: 0px;
+	padding: 0px;
+	color: rgb(120,120,120);
+	font-size: 12px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+.article-list-container .post-date-container {
+	float: right;
+}

@@ -1,0 +1,16 @@
+.footer {
+	padding: 5px;
+	background-color: rgb(230,230,230);
+	color: rgb(120,120,120);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.email {
+	color: rgb(0,170,200);
+}
+.webteam-link {
+	color: rgb(0,220,220);
+	text-decoration: underline;
+	margin: 5px;
+}

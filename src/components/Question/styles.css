@@ -1,0 +1,98 @@
+.question-container {
+	padding: 10px;
+	padding-bottom: 70px;
+}
+.question-container .question-wrapper {
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+.question-container .question-header {
+    background-color: rgb(55, 179, 163);
+	color: white;
+}
+.question-container .question-title-container {
+	padding: 10px;
+	width: 100%;
+	width: 100%;
+}
+.question-container .question-header .question-mark-icon {
+	height: 25px;
+}
+.af-row {
+	display: flex;
+}
+.vote-display {
+	background-color: transparent;
+	padding: 2px 10px 5px 10px;
+	text-align: center;
+}
+.vote-display .vote-button {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+.vote-display .vote-button .vote-button-icon {
+	height: 25px;
+}
+.vote-display .vote-button:active {
+	opacity: 0.5;
+}
+.vote-display .vote-button:disabled {
+	opacity: 0.5;
+	filter: grayscale(40%);
+}
+.vote-display .vote-figure {
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+.question-container .question-header .post-date-container {
+	font-size: 14px;
+	color: rgba(255,255,255,0.9);
+}
+.question-container .question-header .username-container {
+	color: rgba(255,255,255,0.9);
+	font-size: 14px;
+}
+.question-container .question-description {
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.question-container .question-description p, .question-container .question-description ul{
+	line-height: 20px;
+}
+.question-container .question-description img {
+	max-height: 300px;
+	max-width: 100%;
+}
+.question-container .tags-container {
+	padding: 5px;
+	padding-top: 0px;
+	margin-bottom: -5px;
+}
+.question-container .tags-container .tag-tile {
+	display: inline-block;
+	padding: 2px 10px 2px 10px;
+	border-radius: 4px;
+	background-color: rgb(0,180,220,0.2);
+	margin: 3px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.7);
+}
+.add-answer-container {
+	margin: 20px 0px 0px 0px;
+}
+.button {
+	margin: 10px 0px;
+}
+.question-container .question-header .button {
+	margin: 2px 4px;
+	width: 70px;
+}
+.question-container .answer-status-container {
+	margin: 2px 10px;
+	border-bottom: 1px dashed rgba(0,0,0,0.1);
+}

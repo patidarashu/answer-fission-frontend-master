@@ -1,0 +1,88 @@
+.edit-article form {
+	padding: 10px;
+	padding-bottom: 70px;
+}
+.edit-article .title-input {
+}
+.description-textarea {
+}
+.edit-article .page-title {
+	padding: 10px;
+	color: white;
+	background-color: rgb(34, 64, 153);	
+	margin: 0px;
+}
+.edit-article .input-label {
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 10px;
+}
+.edit-article .input-description {
+	font-size: 12px;
+	padding-bottom: 2px;
+	color: rgb(0,0,0,0.6);
+}
+.ck-editor__editable {
+	height: 150px;
+	overflow: auto;
+}
+.edit-article input[type="text"] {
+	padding: 5px;
+	font-size: 14px;
+}
+.edit-article select {
+	font-size: 14px;
+	min-width: 150px;
+}
+.edit-article .button {
+	margin: 5px;	
+	margin-left: 0px;
+}
+.preview-article-title{
+    background-color: rgb(34, 64, 153);
+	color: white;
+	padding: 10px;
+}
+.preview-article-description img {
+	max-height: 300px;
+	max-width: 100%;
+}
+.preview-article-tags-container {
+	padding-top: 0px;
+}
+
+.preview-article-tags-container .tag-tile {
+	display: inline-block;
+	padding: 2px 10px 2px 10px;
+	border-radius: 4px;
+	background-color: rgb(0,180,220,0.2);
+	margin: 3px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.7);
+}
+
+.preview-article-resource-links-container {
+	padding: 5px;
+	padding-top: 0px;
+	margin-bottom: -5px;
+	margin: 5px;
+}
+.preview-article-resource-links-container .resource-link-tile {
+	padding: 2px 10px 2px 10px;
+	border-radius: 20px;
+	background-color: white;
+	margin: 2px 0px;
+	border: 1px solid rgba(34, 64, 153,1);
+	font-size: 14px;
+	overflow: hidden;
+	width: max-content;
+	max-width: 100%;
+	height: 30px;
+}
+.preview-article-resource-links-container .resource-link-tile a {
+	text-decoration: none;
+	color: rgba(34, 64, 153,1);
+}
+.preview-article-resource-links-container .resource-link-tile a:hover {
+	text-decoration: underline;
+}

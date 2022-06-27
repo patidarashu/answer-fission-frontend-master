@@ -1,0 +1,16 @@
+.paginator {
+	padding: 10px;
+}
+.paginator .paginator-button {
+	border-radius: 2px;
+	outline: none;
+	margin: 4px 4px;
+	padding: 0px 8px;
+}
+.paginator .paginator-button:active {
+	opacity: 0.5;
+}
+.paginator .paginator-button:disabled {
+	opacity: 0.2;
+	cursor: not-allowed;
+}

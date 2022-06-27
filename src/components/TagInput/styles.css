@@ -1,0 +1,63 @@
+.tag-li {
+	float: left;
+	padding: 5px;
+	background-color: rgba(0,0,255,0.1);
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+}
+.tag-list {
+	list-style-type: none;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+.input-li {
+	float: none;
+}
+.tag-input-text {
+	outline: none;
+	padding: 3px;
+	border: none;
+}
+.tag-input {
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 4px;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+.remove-button {
+	border: none;
+	outline: none;
+	padding: 0px;
+	margin: 0px;
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	border: 1px solid rgba(255,0,0,0.2);
+	background-color: rgba(255,0,0,0.3);
+	color: black;
+	font-size: 8px;
+	font-family: comic sans ms;
+}
+.suggestion-list {
+	z-index: 100;
+	margin: 0px;
+	padding: 0px;
+	max-height: 80px;
+	overflow: auto;
+	border: 1px solid rgb(0,0,0,0.2);
+	border-radius: 4px;
+}
+.suggestion-list li{
+	padding: 3px;
+	font-size: 14px;
+}
+.non-active-suggestion {
+	color: rgb(0,0,0,0.8);
+	background-color: white;
+}
+.active-suggestion {
+	color: white;
+	background-color: rgb(0,120,220);
+	width: content-filled;
+}

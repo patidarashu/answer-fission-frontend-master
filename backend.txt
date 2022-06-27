@@ -1,0 +1,21 @@
+Endpoints:
+- Login
+- Logout
+- Signup
+
+- getQuestion
+- addQuestion
+- updateQuestion
+- deleteQuestion
+
+- getArticle
+- addArticle
+- updateArticle
+- deleteArticle
+
+- getListOfQuestions
+
+- getAnswer
+- addAnswer
+- updateAnswer
+- deleteAnswer

@@ -1,0 +1,60 @@
+.login-or-signup {
+	
+}
+.login-form, .signup-form {
+	padding: 10px;
+	height: 230px;
+}
+.login-form {
+	position: relative;
+	top: 30px;
+}
+.login-or-signup .tab-button {
+	outline: none;
+	border: none;
+	padding: 5px 10px;
+	background-color: white;
+	color: rgb(120,120,120);
+}
+.login-or-signup .tab-button.active {
+	border-bottom: 3px solid #0d6efd;
+	color: #0d6efd;
+	font-weight: 500;
+}
+.login-or-signup .button {
+	margin: 5px;	
+	margin-left: 0px;
+}
+.login-or-signup input[type="text"], .login-or-signup input[type="password"]{
+	width: 80%;
+	margin: 5px 0px 5px 0px;
+}
+
+.login-or-signup .form-wrapper {
+	border-top: 1px solid rgb(200,200,200);
+}
+
+.login-or-signup .error-popup {
+	margin-top: 0px;
+	background-color: rgba(255,0,0,0.8);
+	color: white;
+	padding: 5px;
+	border-radius: 0px;
+	font-size: 14px;
+}
+.login-or-signup .error-popup {
+  animation-name: example;
+  animation-duration: 900ms;
+  padding-top: 20px;
+  border-radius: 0px;
+  clip-path: polygon(30px 18px, 30px 5px, 45px 18px, 100% 18px, 100% 100%, 0 100%, 0 18px);
+}
+
+.login-or-signup .error-popup ul {
+	line-height: 14px;
+	margin: 2px 0px;
+	padding-left: 2px;
+	list-style-type: none;
+}
+.login-or-signup .error-popup ul li {
+}

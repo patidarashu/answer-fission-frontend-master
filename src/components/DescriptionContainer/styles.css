@@ -1,0 +1,13 @@
+.description-container {
+	color: white;
+	padding: 12px;
+	
+}
+.description-text {
+	background-color: rgba(90,210,255,0.15);
+	color: rgb(80,200,235);
+	margin: auto;
+	border-radius: 8px;
+	padding: 20px;
+	text-align: center;
+}

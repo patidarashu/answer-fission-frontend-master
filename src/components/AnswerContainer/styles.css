@@ -1,0 +1,20 @@
+.answer-container {
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+.answer-container .vote-display {
+	background-color: rgb(60,60,60);
+}
+.answer-container .answer-description {
+	padding: 10px;
+}
+.answer-container .button {
+	margin: 4px 4px;
+	width: 74px;
+}
+.answer-container .resolved-sign {
+	margin: 5px 0px;
+	color: rgb(0,210,0);
+	font-size: 24px;
+}

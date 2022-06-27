@@ -1,0 +1,47 @@
+.profile {
+	padding: 10px 20px;
+	padding-bottom: 70px;
+}
+.profile .sub-container {
+	border: 1px solid rgb(200,200,200);
+	border-radius: 2px;
+	margin: 2px;
+	height: 250px;
+}
+.profile .col-wrapper {
+	padding: 2px;
+}
+.profile .sub-container .title {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 5px;
+	color: white;
+	background-color: rgb(40,40,40)
+}
+.profile .deleted-article-list .title {
+	background-color: rgb(120,120,120);
+}
+.profile .article-list .title {
+	background-color: rgb(34, 64, 153);
+}
+.profile .question-list .title {
+	background-color: rgb(55, 179, 163);
+}
+.profile .sub-container .content {
+	padding: 5px 10px;
+	line-height: 16px;
+	height: 210px;
+	overflow: auto;	
+}
+.profile .sub-container .content .data {
+	margin-bottom: 5px;
+}
+.profile .sub-container .content .key {
+	font-size: 14px;
+	color: rgb(160,160,160);
+	margin: 5px;
+}
+.profile .sub-container .content .value {
+	font-size: 14px;
+	color: rgb(30,30,30);	
+}

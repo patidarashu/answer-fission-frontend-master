@@ -1,0 +1,13 @@
+.operation-ask-question {
+}
+button.ask-question-button {
+	background-color: rgb(55, 179, 163);
+	color: white;
+	border: 1px solid rgb(55, 179, 163);
+}
+button.ask-question-button:hover {
+	opacity: 0.9;
+	background-color: rgb(55, 179, 163);
+	color: white;
+	border: 1px solid rgb(55, 179, 163);
+}

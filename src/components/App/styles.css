@@ -1,0 +1,154 @@
+.App {
+	position: relative;
+	min-height: 100vh;
+}
+blockquote {
+	padding: 8px 5px 1px 10px;
+	border-left: 3px solid rgb(0,155,155);
+	background-color: rgba(0,155,155,0.1);
+	font-weight: 500;
+}
+[data-title] {
+  position: relative;
+}
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: -27px;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background-color: rgba(20,20,20,0.7);
+  color: #fff;
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: normal;
+  z-index: 1000;
+}
+[data-title]:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 13px;
+  display: inline-block;
+  color: #fff;
+  border: 5px solid transparent;	
+  border-bottom: 5px solid rgba(20,20,20,0.7);
+  z-index: 1000;
+}
+
+/*Exception of custome title tag*/
+h1[data-title]:hover::before,
+h2[data-title]:hover::before,
+h3[data-title]:hover::before,
+h4[data-title]:hover::before,
+h5[data-title]:hover::before,
+h6[data-title]:hover::before,
+span[data-title]:hover::before
+{
+  padding: 4px 6px;
+}
+.answer-counter[data-title]:hover:before {
+	left: 0px;
+	bottom: -23px;
+}
+
+
+
+[data-title-end] {
+  position: relative;
+}
+[data-title-end]:hover::before {
+  content: attr(data-title-end);
+  position: absolute;
+  bottom: -27px;
+  right: 20px;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background-color: rgba(20,20,20,0.8);
+  color: #fff;
+  font-size: 12px;
+  white-space: nowrap;
+  font-weight: normal;
+  z-index: 1000;
+}
+[data-title-end]:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 13px;
+  display: inline-block;
+  color: #fff;
+  border: 5px solid transparent;	
+  border-bottom: 5px solid rgba(20,20,20,0.8);
+  z-index: 1000;
+}
+.errorLabel {
+	color: red;
+	font-size: 12px;
+	padding-left: 7px;
+}
+.errorLogo {
+	margin-right: 3px;
+	background-color: rgba(255,0,0,0.8);
+	color: white;
+	font-size: 10px;
+	border-radius: 50%;
+	font-weight: bold;
+}
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.message-box {
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	border-radius: 3px;
+	margin: auto;
+	padding: 10px;
+	padding-left: 25px;
+	text-align: center;
+	z-index: 2000;
+	clip-path: polygon(12px 12px, 0 0, 100% 0, 100% 100%, 12px 100%);
+	animation-name: example;
+	animation-duration: 900ms;
+}
+
+.message-box.success {
+	background-color: rgba(0,200,20,0.9);
+	color: white;	
+}
+.message-box.error {
+	background-color: rgba(220,0,0,0.9);
+	color: white;
+}
+.modal-button {
+	margin: 10px 5px;
+}
+.model-logo {
+	width: 80px;
+	height: 80px;
+}
+
+/* common */
+.operation {
+	width: 280px;
+	border-radius: 4px;
+	border: 1px solid rgb(210,210,210);
+	box-shadow: 4px 4px 10px rgb(210,210,210);
+	padding: 10px;
+	margin: 5px auto;
+}
+.operation-description {
+	text-align: justify;
+}
+.operation-button {
+	padding: 10px;
+	width: 100%;
+}
+.operation-button:hover {
+	opacity: 0.9;
+}
